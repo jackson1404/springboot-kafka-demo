@@ -1,7 +1,6 @@
-package com.jackson.apache_kafka.testing.config;
+package com.jackson.apache_kafka.testing.config.producer;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
-import org.apache.kafka.common.protocol.types.Field;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
