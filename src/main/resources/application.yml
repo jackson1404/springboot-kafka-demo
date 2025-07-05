@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: apache-kafka.testing
+  kafka:
+    bootstrap-servers: localhost:9092
+    topics:
+      testing-event: my-testing-topic
+    groups:
+      testing-group: my-testing-group
